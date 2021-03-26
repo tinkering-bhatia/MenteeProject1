@@ -12,7 +12,7 @@ by Team Falcon, Developer's Society, BITS Goa
 5. A scroll snap feature which enhances user experience while scrolling the page
 6. Responsive to the screen size 
 
- 
+![Video showcasing features and responsiveness](https://drive.google.com/file/d/1EaKtU7nUXjaJiIk3Rb7V3L2oBkcj-mPs/view?usp=sharing) 
 
 ## TECHNICALITIES
 
