@@ -22,7 +22,7 @@
 
         }
         body{
-            background-color:#131721;
+            background-image: linear-gradient(to right,#1a233b,black,#1a233b);
             width:100%;
             color: white;
             text-align: center;
@@ -33,69 +33,73 @@
         }
         h4{
             font-size: 1.6em;
-            padding-top: 5vh;
+            padding-top: 1.7vh;
+        }
+        .logo h4{
+            padding-top:0;
+            font-size: 1em;
         }
 
 
 
         #header{
-  display: flex;
-  justify-content: space-between;
-  background-color: #131721;
-  margin:0;
-  padding: 0.5em 0;
-  height: fit-content;
-  
-}
-.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131721;
+    margin:0;
+    padding: 0.5em 0;
+    height: fit-content;
+    
+  }
+  .logo{
   margin-left: 6%;
-  font-size: 1em;
-  font-family: 'Chango',sans-serif;
-  margin-top: 1px;
+  font-size: 2.6em;
+  font-family: sans-serif;
+  margin-top: 0px;
   color: white;
-  line-height:1.1em ;
 }
+  
 .main-navbar{
-    float:right
-    top: 0%;
-    padding:1px 1px;
-    margin: 0px 40px;
-    text-align: center;
-    
-
-    
-}  
-.main-navbar ul{
-    line-height: 1.2em;
-    list-style: none; 
-    width: 100%;  
-    
-  }
-.main-navbar ul li{
-    display: inline;
-    padding-top: 2em;
-    margin-left:0.5vw;
-    margin-right:0.5vw;
-    
-  }
-.main-navbar ul li a{
-    
-    text-decoration: none;    
-    font-family: 'Chango','Poppins',sans-serif;
-    font-size: 1em;
-   
-    padding:5px 1vw ;
-    
-    min-width: 30px;
+      float:right
+      top: 0%;
+      padding:1px 1px;
+      margin: 0;
+      text-align: center;
+      
+  
+      
+  }  
+  .main-navbar ul{
+      line-height: 2.5em;
+      list-style: none; 
+      width: 100%;  
+      
+    }
+  .main-navbar ul li{
+      display: inline;
+      padding-top: 2em;
+      margin-left:0.5vw;
+      margin-right:0.5vw;
+      
+    }
+  .main-navbar ul li a{
+      
+      text-decoration: none;    
+      font-family: 'Blinker','Poppins',sans-serif;
+      font-size: 1em;
      
-    color: white;
-    border-bottom: 0.2em solid white ;
-}
-.main-navbar ul li a:hover{
-    color: black;
-    background-color: white;
-    border-color:  rgb(97, 97, 97);
-}
+      padding:5px 1vw ;
+      
+      min-width: 30px;
+       
+      color: white;
+      border-bottom: 0.2em solid white ;
+  }
+  .main-navbar ul li a:hover{
+      color: black;
+      background-color: white;
+      border-color:  rgb(97, 97, 97);
+  }
 
     </style>
 </head>
@@ -103,7 +107,7 @@
 <body>
     <section id="header"><!--logo on right and navbar right side -->
         <div class="logo"> <!--company logo and name on left side-->
-         <h4>FALCON</h4>
+            <h4 style="align-items: center;justify-content: center;"><video src="logovdo.mp4" width="45" height="35" autoplay muted loop></video> FALCON</h4>
         </div> 
         <div class="main-navbar"> <!--Navbar right aligned-->
            <ul>

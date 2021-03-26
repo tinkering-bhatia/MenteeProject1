@@ -13,10 +13,14 @@
 body{
   height: 100vh;
   overflow:hidden;
+  
 }
 section{
   scroll-snap-align: center;
 
+}
+body{
+  background-image: linear-gradient(to bottom,#1a233b,black,#1a233b);
 }
 .container{
   width:100%;
@@ -27,6 +31,14 @@ section{
 
 }
 
+
+.logo{
+  margin-left: 6%;
+  font-size: 2.6em;
+  font-family: sans-serif;
+  margin-top: 0px;
+  color: white;
+}
 #header{
   display: flex;
   justify-content: space-between;
@@ -36,18 +48,12 @@ section{
   height: fit-content;
   
 }
-.logo{
-  margin-left: 6%;
-  font-size: 1.5em;
-  font-family: sans-serif;
-  margin-top: 10px;
-  color: white;
-}
+
 .main-navbar{
     float:right
     top: 0%;
     padding:1px 1px;
-    margin: 0px 40px;
+    margin: 0;
     text-align: center;
     
 
@@ -69,7 +75,7 @@ section{
 .main-navbar ul li a{
     
     text-decoration: none;    
-    font-family: 'Chango',sans-serif;
+    font-family: 'Blinker','Poppins',sans-serif;
     font-size: 1em;
    
     padding:5px 1vw ;
@@ -109,7 +115,7 @@ section{
     position: relative;
     font-size: 8em;
     font-weight: 400;
-    font-family: 'Staatliches','Chango','Lobster';
+    font-family: 'Blinker','Chango','Lobster';
     color:white;
     
     -webkit-text-stroke: 0.03em black;
@@ -160,7 +166,8 @@ section{
     text-decoration: none;
     font-size: 1em;
     color: white;  
-    font-family: 'Chango','Ranchers',sans-serif; 
+    font-family: 'Blinker','Ranchers',sans-serif; 
+    font-weight:bolder;
 }
 
 .btn:hover{
@@ -172,11 +179,11 @@ section{
 }
 #about{
   width: 100%;
-  height: min-content;
+  height: 100vh;
   color: white;
-  background-color: #131721;
+  /*background-color: #131721;*/
   font-size: 20px;
-  padding: 10vh 10% 10vh 10%;
+  padding: 2vh 10% 2vh 10%;
   
   text-align: center;
   justify-content: center;
@@ -184,10 +191,30 @@ section{
   
 }
 #about h2{
-  font-family: 'Chango','Ranchers',sans-serif;
+  font-family: 'Blinker','Ranchers',sans-serif;
 }
 #about p{
- margin-top: 3em;
+ margin-top: 2em;
+}
+iframe{
+  margin: 40px auto 0;
+  border: white 4px solid;
+  width:53vw;
+  height:30vw;
+  min-width: 433px;
+  min-height:245px ;
+  
+}
+@media(max-width:900px)
+{
+  #about{
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  iframe{
+    width:433;
+    height:245;
+  }
 }
 #tagline-videobg{
     position: relative;
@@ -198,7 +225,7 @@ section{
     justify-content: center;
     text-align: center;
     padding: 0 20px;
-    color: white;
+    color:white;
   
   
   }
@@ -244,7 +271,7 @@ section{
 /* mfnffffffffffffffffffffffffffffffffffff*/
 
 #land{
-    background-color:#131721; 
+    /*background-color:#131721; */
     width: 100vw;
     padding-bottom: 5vh;
     
@@ -256,10 +283,12 @@ section{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 0; 
+    background-origin: content-box;
+    
   }
   
 #air{
-  background-color: #131721; 
+  /*background-color: #131721; */
   width: 100vw;
   padding-bottom: 5vh;
   
@@ -273,7 +302,7 @@ section{
   margin-bottom:0 ; 
 }
 #water{
-  background-color:#131721; 
+  /*background-color:#131721; */
   width: 100vw;
   padding-bottom: 5vh;
   
@@ -301,7 +330,7 @@ section{
   grid-gap: 0.3em;
 }
 .f1{
-  border: 0.2em solid white;
+  border: 2px solid white;
   
 }
 .f1:hover{
@@ -310,7 +339,7 @@ section{
   color:black;
 }
 .f2{
-  border: 0.2em solid white;
+  border: 2px solid white;
 }
 .f2:hover{
   background-color: white;
@@ -318,7 +347,7 @@ section{
   color:black;
 }
 .f3{
-  border: 0.2em solid white;
+  border: 2px solid white;
 }
 .f3:hover{
   background-color: white;
@@ -326,7 +355,7 @@ section{
   color:black;
 }
 .f4{
-  border: 0.2em solid white;
+  border: 2px solid white;
 }
 .f4:hover{
   background-color: white;
@@ -352,7 +381,7 @@ section{
     padding:5px 5px;
   }
 #social a:hover{
-    color: rgb(28, 0, 155);
+    color: rgb(169, 174, 199);
     
   }
       
@@ -360,5 +389,64 @@ section{
 
 
 
+
+  /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 12%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 8; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background: transparent; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 250px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 3px 8px 6px 3px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  overflow: hidden;
+  border-color: white;
+  z-index: 5px;
+}
+.sidenav a{
+  border-left:solid white 3px;
+  margin-bottom: 5px;
+  padding-left: 2px;
+  /* background-color: rgba(94, 94, 94, 0.418); */
+  background-image: linear-gradient(to right, rgba(100,100,100,0.2), rgba(255,0,0,0));
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #90ffec;
+}
+
+/* Style page content */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width:1235px)
+{
+  .sidenav a{
+    
+    display: none;
+  }
+  .sidenav{
+    
+    display: none;
+  }
+  #side{
+    display: none;
+    
+  }
+  
+}
 
 
