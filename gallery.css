@@ -49,7 +49,7 @@ body{
     
 }
 .gal{
-    background-color: #131721;
+  background-image: linear-gradient(to bottom,#1a233b,black,#1a233b);
 }
 .gal h2{
     align-items: center;
@@ -81,12 +81,32 @@ img{
     height: fit-content;
     
   }
+  .logo{
+    margin-left: 6%;
+    font-size: 2.6em;
+    font-family: sans-serif;
+    margin-top: 0px;
+    color: white;
+  }
+  @media(max-width:474px)
+  {
+    .logo h4 video{
+      
+      display: none;
+    }
+    .logo h4{
+      font-size: .7em;
+    }
+    .main-navbar ul li a{
+      padding-top:0px;
+    }
+  }
   
 .main-navbar{
       float:right
       top: 0%;
       padding:1px 1px;
-      margin: 0px 40px;
+      margin: 0;
       text-align: center;
       
   
@@ -108,7 +128,7 @@ img{
   .main-navbar ul li a{
       
       text-decoration: none;    
-      font-family: 'Chango','Poppins',sans-serif;
+      font-family: 'Blinker','Poppins',sans-serif;
       font-size: 1em;
      
       padding:5px 1vw ;

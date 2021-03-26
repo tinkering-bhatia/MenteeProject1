@@ -18,7 +18,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30vh 50vh 50vh 50vh;
-    background-color: #131721;
+    background-image: linear-gradient(to bottom,#1a233b,black,#1a233b);
     padding-bottom: 7vh;
     grid-gap:2em;
     color:white;
@@ -149,7 +149,7 @@
         background-color: black;
       }
     #social a:hover{
-        color: rgb(28, 0, 155);
+        color: #1a233b;
         
       }
     
@@ -160,7 +160,17 @@
 
 
 
-
+.logo h4{
+    margin-top: 0;
+}
+      
+      .logo{
+        margin-left: 6%;
+        font-size: 2.4em;
+        font-family: sans-serif;
+        margin-top: 0px;
+        color: white;
+      }
       #header{
         display: flex;
         justify-content: space-between;
@@ -170,19 +180,12 @@
         height: fit-content;
         
       }
-      .logo{
-        margin-left: 6%;
-        font-size: 1.5em;
-        font-family: 'Chango',sans-serif;
-        margin-top: 10px;
-        padding-bottom: 10px;
-        color: white;
-      }
-      .main-navbar{
+      
+    .main-navbar{
           float:right
           top: 0%;
           padding:1px 1px;
-          margin: 0px 40px;
+          margin: 0;
           text-align: center;
           
       
@@ -204,7 +207,7 @@
       .main-navbar ul li a{
           
           text-decoration: none;    
-          font-family: 'Chango','Poppins',sans-serif;
+          font-family: 'Blinker','Poppins',sans-serif;
           font-size: 1em;
          
           padding:5px 1vw ;
