@@ -24,7 +24,9 @@ The site has some amazing navigation experience through different web pages link
 ## OUR EXPERIENCE
 
 Hello, we are a group of budding  developers who stepped into the field of web dev in the name of exploring different things in college.But the journey has been pretty nice actually.
-We all were too new to the development stuff and all could barely learn HTML and CSS only in this online sem cum crash course.We tried different individual projects earlier and tried to merge everything we learnt in this group project be it animation, video in background,responsive, flex, grid etc. which may sound pretty basic to you. But trust me for us the case wasn't the same for us. One more thing to mention I learnt that binge watching videos from a roadmap did not give us as much knowledge as this project provided us.
+We all were too new to the development stuff and all could barely learn HTML and CSS only in this online sem cum crash course.We tried different individual projects earlier and tried to merge everything we learnt in this group project be it animation, video in background,responsive, flex, grid etc. which may sound pretty basic to you. But trust me, the case wasn't the same for us. 
+
+One more thing to mention I learnt that binge watching videos from a roadmap did not give us as much knowledge as this project provided us.
 We spent a lot of time searching for a basic attribute to make our site responsive and knowingly or unknowingly learnt few other attributes altogether.We learnt about managing different HTML and CSS files together. Div, Section,class, id which sounded pretty similar at the beginning. Now surely things have changed.Most importantly this gave us first hand experience on working in a group together and gave us the slight feel about life of a developer.
 
 
